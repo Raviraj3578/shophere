@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<title>Shop Here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<style>
+.container{
+   width:fit-content;
+   height: fit-content;
+   margin-top: 100px;
+}
+#intro{
+	padding: 10px;
+width: 90%;
+margin-left: 10px;
+margin: 4px;
+border-radius: 8px;
+border: 3px dotted;
+text-align: center;
+}
+#intro1{
+	padding: 10px;
+width: 90%;
+margin-left: 10px;
+margin: 4px;
+border-radius: 8px;
+border: 3px dotted;
+text-align: center;
+}
+button{
+	padding: 10px;
+width: 90%;
+margin-left: 10px;
+margin: 4px;
+background-color: green;
+text-align: center;
+}
+button:hover,input:hover{
+	transform:scale(1.1);
+}
+a{
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<center>
+	<form action="homepage.html">
+<div class="container">
+	<center><h1>Shop Here</h1></center>
+	 <input type="text"id="intro" required placeholder="Username" name="email" ><br>
+	 <input type="password" placeholder="password" id="intro1" required name="password"><br>
+	 <input type="checkbox">Remember Me<br>
+	 <button type="submit" class="intro" onclick="login()">Login</button><br>
+	 <a href=""><p>forgot password ?</p></a>
+	 </form></div></form></center>
+	 <script>
+		function login(){
+		var user=document.getElementById("intro");
+		var passw=document.getElementById("intro1");
+		if(user==ravi3578 && passw==12345){
+			alert("welcome");
+		}
+		else{
+			alert("wrong credentials");
+		}
+		alert("welcome");
+	}
+	</script>
+
+
+	 
+</body>
+</html>
